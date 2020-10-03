@@ -1,0 +1,16 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "Simple site constructor on pure js",
+  "main": "src/index.js",
+  "repository": "https://github.com/naumovarthur/js-constructor",
+  "author": "naumovarthur",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html -p 3000 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  }
+}
